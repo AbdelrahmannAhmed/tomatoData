@@ -1,0 +1,11 @@
+.collapse {
+  transition: height 0.5s ease, opacity 0.5s ease; /* استخدام height */
+  height: 0; /* بداية مغلقة */
+  overflow: hidden; /* إخفاء المحتوى الزائد */
+  opacity: 0; /* بداية غير مرئية */
+}
+
+.collapse.show {
+  height: auto; /* السماح للعنصر بالتكيف */
+  opacity: 1; /* جعلها مرئية */
+}

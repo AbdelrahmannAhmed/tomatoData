@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap");
+
+@font-face {
+  font-family: "MyCustomFont"; /* اسم الخط */
+  src: url("./assets/fonts/TestSohneBreit-Buch-BF663d89ca2ff42.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family: "MyCustomFont", serif;
+  --font-family2: "Roboto Slab", serif;
+}
+
+body.bg-dark {
+  background-color: #343a40 !important;
+}
+.bg-dark1 {
+  background-color: #343a40 !important;
+}
+
+body.text-light {
+  color: #f8f9fa !important;
+}
+
+.bg-dark-custom {
+  background-color: #343a40;
+  color: white;
+}
+
+.bg-light-custom {
+  background-color: white;
+  color: black;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-family) !important;
+}
+.bodyFont {
+  font-family: var(--font-family2);
+}
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.backImg {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)), url(./assets/images/pexels-thought-catalog-317580-2228559.jpg);
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.backNavColor {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
